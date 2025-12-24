@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 1. Load the PhysioNet subset
-df = pd.read_csv('physionet_sample.csv')
+df = pd.read_csv('brain_data.csv')
 
 # 2. Create a figure with multiple "subplots" (one for each electrode)
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
